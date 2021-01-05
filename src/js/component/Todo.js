@@ -11,7 +11,7 @@ const Todo = ({ todo, index, deleteTodo }) => {
 				<button
 					className="btn-delete"
 					onClick={() => deleteTodo(index)}>
-					x
+					X
 				</button>
 			</div>
 			<div className="line" />
